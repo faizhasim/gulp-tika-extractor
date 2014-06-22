@@ -23,4 +23,4 @@ gulp.task('extract pdf document to txt', function(){
 
 
 [travis-url]: http://travis-ci.org/faizhasim/gulp-tika-extractor
-[travis-image]: https://secure.travis-ci.org/faizhasim/gulp-tika-extractor.svg?branch=develop
+[travis-image]: https://secure.travis-ci.org/faizhasim/gulp-tika-extractor.svg?branch=master
