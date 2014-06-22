@@ -1,7 +1,7 @@
 {
   "name": "gulp-tika-renamer",
-  "version": "0.0.0",
-  "description": "...",
+  "version": "0.1.0",
+  "description": "Document extractor using Tika for Gulp",
   "main": "index.js",
   "dependencies": {
     "through2": "~0.5.1",
@@ -15,8 +15,23 @@
     "vinyl-fs": "~0.3.0"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "./node_modules/tape/bin/tape test/*.js"
   },
-  "author": "",
-  "license": "BSD-2-Clause"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/faizhasim/gulp-tika-extractor.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "tika",
+    "extract"
+  ],
+  "author": "Mohd Faiz Hasim <faizhasim@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faizhasim/gulp-tika-extractor/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
 }
