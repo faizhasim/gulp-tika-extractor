@@ -1,4 +1,4 @@
-# gulp-tika-extractor  [![Build status][travis-image]][travis-url]
+# gulp-tika-extractor [![NPM version][npm-image]][npm-url]  [![Build status][travis-image]][travis-url]
 > Document extractor using Tika for Gulp
 
 ## Usage
@@ -24,3 +24,5 @@ gulp.task('extract pdf document to txt', function(){
 
 [travis-url]: http://travis-ci.org/faizhasim/gulp-tika-extractor
 [travis-image]: https://secure.travis-ci.org/faizhasim/gulp-tika-extractor.svg?branch=master
+[npm-url]: https://npmjs.org/package/gulp-tika-extractor
+[npm-image]: https://badge.fury.io/js/gulp-tika-extractor.svg
